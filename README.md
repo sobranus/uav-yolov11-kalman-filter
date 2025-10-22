@@ -30,33 +30,18 @@ The project estimates:
 
 ## Sample:
 
-![Tracking Example](assets/distance_bb.png)
+![Tracking Example](python/assets/distance_bb.png)
 
-![Distance estimated](assets/Distance.png)
+![Distance estimated](python/assets/Distance.png)
 
 <p align="center">
-  <img src="assets/position_l.png" alt="Left perspective detection" width="45%" />
+  <img src="python/assets/position_l.png" alt="Left perspective detection" width="45%" />
   &nbsp;
-  <img src="assets/position_r.png" alt="Right Perspective detection" width="45%" />
+  <img src="python/assets/position_r.png" alt="Right Perspective detection" width="45%" />
 </p>
 
 <p align="center">
-  <em>Left: Raw YOLOv11 detections — Right: Kalman-filtered trajectory</em>
+  <em>Left: Left perspective detection — Right: Right Perspective detection</em>
 </p>
 
-![Position estimated](assets/Position.png)
-
-### Directory Structure
-
-project/
-├── cpp/ C++ 1/2d kalman filter
-├── python/
-│ ├── detections.py # Object detection and bounding box annotation
-│ ├── distance.py # 1 Perspective distance estimation kf
-│ ├── position.py # 2 Perspective position estimation kf
-│ ├── drone_coming.mp4 # sample video
-│ ├── detections.jsonl # jsonl file of sample object detection annotation
-│ ├── uav_nano_tester.pt # Sample YOLOv11n nano light model
-│ └── YOLOv11_uav_best.pt # YOLOv11x model weights
-├── .gitattributes # Git LFS tracking config
-└── README.md
+![Position estimated](python/assets/Position.png)
