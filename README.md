@@ -2,7 +2,7 @@
 
 # UAV Object Distance and Position Estimation using Kalman Filter and YOLOv11 object detection
 
-This repository contains a complete implementation of a real-time **object tracking and distance estimation system** for UAV (drone) applications. The system combines **YOLOv11** object detection, **Kalman Filter–based smoothing**, and **triangulation from dual perspectives** to achieve robust position estimation from aerial video streams.
+This repository contains a complete implementation of **object tracking and distance estimation system** for UAV (drone) applications. The system combines **YOLOv11** object detection, **Kalman Filter–based smoothing**, and **triangulation from dual perspectives** to achieve robust position estimation from aerial video streams.
 
 ---
 
